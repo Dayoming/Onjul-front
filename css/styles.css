@@ -11600,6 +11600,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .share-card__status {
+  font-family: 'Gowun Dodum', sans-serif;
   font-size: .8em;
   color: #D7BDCA;
 }
@@ -11613,7 +11614,13 @@ header.masthead h1, header.masthead .h1 {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
-}    
+}
+
+.share-card__placeholder {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 4px;
+}
 
 /* footer */
 .icon-source {
