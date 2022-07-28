@@ -11615,14 +11615,19 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .share-card__description {
-  padding: 0 2em 2em;
-  margin: 0;
+  padding-bottom: 1em;
   color: #D7BDCA;
+  display: inline-block;
   font-family: 'Gowun Dodum', sans-serif; 
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
   overflow: hidden;
+}
+
+.share-card__description-me {
+  background-color: #c1ebff96;
+}
+
+.share-card__description-you {
+  background-color: #aaffd99e;
 }
 
 .share-card__placeholder {
