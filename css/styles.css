@@ -11636,6 +11636,72 @@ header.masthead h1, header.masthead .h1 {
   margin-right: 4px;
 }
 
+/* share-info */
+.share-info-div {
+  position: relative;
+  display: block;
+  background-color: white;
+  width: 90%;
+  height: 90%;  
+  border-radius: calc(var(--curve) * 1px);
+  scrollbar-width: 0;
+  overflow-y: scroll;
+  text-decoration: none;
+}
+
+.share-info-div::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.share-info-div h2 {
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.share-info-div .share-info-image {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.share-info-div .share-card__description {
+  padding-bottom: 0;
+  display: block;
+}
+
+.share-info-text {
+  width: 80%;
+  margin: 1rem auto;
+  position: relative;
+}
+
+/* share-insert */
+.share-insert-div {
+  position: relative;
+  display: block;
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  padding: 2rem;
+  scrollbar-width: 0;
+  overflow-y: scroll;
+  border-radius: calc(var(--curve) * 1px);
+  text-decoration: none;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.share-insert-submit, .share-insert-back {
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.share-insert-back {
+  background-color: white;
+  color: #f4623a;
+  border: 1px solid #f4623a;
+}
+
+.share-insert-div::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
 /* footer */
 .icon-source {
   font-size: 1rem;
