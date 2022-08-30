@@ -11702,6 +11702,15 @@ header.masthead h1, header.masthead .h1 {
   display: none; /* Chrome, Safari, Opera*/
 }
 
+.share-info-div .share-card__author-div {
+  display: table-caption;
+  margin-top: 1em;
+}
+
+.share-card__author-div img {
+  margin-bottom: 1em;
+}
+
 /* footer */
 .icon-source {
   font-size: 1rem;
